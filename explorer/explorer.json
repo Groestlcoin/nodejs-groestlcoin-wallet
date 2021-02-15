@@ -1,4 +1,4 @@
 {
-	"mainnet" : { "endpoint":"https://blockstream.info/api/" },
-	"testnet" : { "endpoint":"https://blockstream.info/testnet/api/" }
+	"mainnet" : { "endpoint":"https://esplora.groestlcoin.org/api/" },
+	"testnet" : { "endpoint":"https://esplora-test.groestlcoin.org/api/" }
 }

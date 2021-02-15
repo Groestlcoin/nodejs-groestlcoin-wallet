@@ -1,19 +1,19 @@
 {
-  "name": "nodejs-bitcoin-wallet",
+  "name": "nodejs-groestlcoin-wallet",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "gmazza",
+  "author": "groestlcoin developers",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.0",
-    "bip32": "^2.0.4",
+    "bip32grs": "^2.0.5",
     "bip39": "^3.0.2",
-    "bitcoin-address-validation": "^0.2.9",
-    "bitcoinjs-lib": "^5.1.6",
+    "groestlcoin-address-validation": "^1.0.0",
+    "groestlcoinjs-lib": "^5.1.10",
     "chalk": "^2.4.2",
     "clear": "^0.1.0",
     "coinselect": "^3.1.11",

@@ -3,7 +3,7 @@ const questions = [];
 let tx = {};
 
 const level = [
-  'high, 2 blocks', 'medium, 6 blocks', 'low, 1008 blocks', 'custom'
+  'high, 2 blocks', 'medium, 3 blocks', 'low, 4 blocks', 'custom'
 ];
 
 questions.push({
@@ -14,7 +14,7 @@ questions.push({
 {
   type: 'input',
   name: 'amount',
-  message: 'insert amount (BTC):',
+  message: 'insert amount (GRS):',
 },
 {
   type: 'list',

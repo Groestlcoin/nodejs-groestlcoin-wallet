@@ -1,6 +1,6 @@
 const bip39 = require('bip39');
-const bip32 = require('bip32');
-const bitcoin = require('bitcoinjs-lib');
+const bip32 = require('bip32grs');
+const bitcoin = require('groestlcoinjs-lib');
 const coinselect = require('coinselect');
 const fs = require('fs');
 

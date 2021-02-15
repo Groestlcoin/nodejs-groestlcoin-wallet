@@ -3,7 +3,7 @@ const chalk = require("chalk");
 const figlet = require("figlet");
 const clear = require('clear');
 const inquirer = require("inquirer");
-const validate = require('bitcoin-address-validation');
+const validate = require('groestlcoin-address-validation');
 
 const explorer = require('./explorer/explorer');
 const wallet = require('./wallet/wallet');
@@ -97,10 +97,10 @@ exports.askTransactionDetails = async function () {
 
   let feeRates = await explorer.getEstimatedFees();
   // network fees
-  this.printText("-- estimated network fees (sat/vB) --");
+  this.printText("-- estimated network fees (gro/vB) --");
   this.printText("2 blocks: " + feeRates['2'], "yellow");
-  this.printText("6 blocks: " + feeRates['6'], "yellow");
-  this.printText("1008 blocks: " + feeRates['1008'], "yellow");
+  this.printText("3 blocks: " + feeRates['3'], "yellow");
+  this.printText("4 blocks: " + feeRates['4'], "yellow");
   this.printText("\n");
 
   let data = await this.showMenu(menu_send_0);

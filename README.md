@@ -1,19 +1,17 @@
-# nodejs bitcoin wallet
+# nodejs groestlcoin wallet
 ## [experimental] funds can be "lost".
-
-![Alt text](resources/screenshot.png)
 
 
 1. download
 
 ```
-git clone https://github.com/gianlucamazza/nodejs-bitcoin-wallet.git
+git clone https://github.com/Groestlcoin/nodejs-groestlcoin-wallet.git
 ```
 
 2. install dependencies
 
 ```
-cd nodejs-bitcoin-wallet
+cd nodejs-groestlcoin-wallet
 npm install
 ```
 
@@ -27,15 +25,3 @@ cp config.json.template config.json
 ```
 npm start
 ```
-
-## development roadmap
-- sweep private key
-- multisig transactions
-- hardware wallet integration
-  - trezor
-  - ledger
-  - coldcard
-- lightning integration
-
-## support the development
-Bitcoin donations: bc1q7uauxxrumjg8pg5pr543gazrjtvyrcmxjyxks2
